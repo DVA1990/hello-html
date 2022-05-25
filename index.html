@@ -1,9 +1,139 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Hello HTML</title>
-  </head>
-  <body>
-    <h1>Hello HTML, my name is ???!</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Resume</title>
+</head>
+<body>
+    <!-- Main -->
+    <div class="main">
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- About -->
+            <div class="about" id="about">
+                <h2 class="about-position">Switch to Full Stack Developer</h2>
+                <h1 class="about-name">Diakov Vladyslav</h1>
+                <p class="about-text">Brand manager of the company developing unique gaming computers EVOLVE, technical director of the TELEMART.UA store, and the head of the computer hardware assembly department.</p>
+            </div>
+            <!-- Projects -->
+            <div class="project">
+                <h3 class="main-title-h3">Projects</h3>
+                <ol class="main-list">
+                    <li>
+                        <a href="https://telemart.ua/assembly-start.html" target="_blank" class="main-link">TELEMART.UA · PC Configurator</a>
+                        <span class="main-list-text">........</span>
+                        [ <span class="main-list-text">Project Idea, PM</span> ]
+                    </li>
+                    <li>
+                        <a href="https://www.behance.net/gallery/141018989/EVOLVE-Gaming-PC" target="_blank" class="main-link">EVOLVE · Gaming PC</a>
+                        <span class="main-list-text">.................................</span>
+                        [ <span class="main-list-text">Product Design, PM</span> ]
+                    </li>
+                    <li>
+                        <a href="https://setka.ua/" target="_blank" class="main-link">Setka.ua</a>
+                        <span class="main-list-text">...............................................................</span>
+                        [ <span class="main-list-text">CEO, Brand Design</span> ]
+                    </li>
+                </ol>
+            </div>
+            <!-- Work Experience -->
+            <div class="work">
+                <h3 class="main-title-h3">Work Experience</h3>
+                <!-- Company 1 -->
+                <div>
+                    <h4 class="main-title-h4">CTO / Brand Manager <span class="work-text">TELEMART.UA</span></h4>
+                    <p class="work-years">March 2016 - up to now <span class="work-line">|</span> Ukraine</p>
+                    <ul class="main-list">
+                        <li><span class="main-list-text">Created a brand of unique gaming PCs EVOLVE;</span></li>
+                        <li><span class="main-list-text">Opened three new showrooms TELEMART.UA;</span></li>
+                        <li><span class="main-list-text">Developed a unique PC configurator;</span></li>
+                        <li><span class="main-list-text">Automated online store pricing process, script written in C# code.</span></li>
+                    </ul>
+                </div>
+                <!-- Company 2 -->
+                <div>
+                    <h4 class="main-title-h4">Deputy Head of IT Department <span class="work-text">Dnipro Water Company</span></h4>
+                    <p class="work-years">August 2014 - March 2016 <span class="work-line">|</span> Ukraine</p>
+                    <ul class="main-list">
+                        <li><span class="main-list-text">Coordination of IT departments;</span></li>
+                        <li><span class="main-list-text">Department budget management, planning;</span></li>
+                        <li><span class="main-list-text">Implementation and configuration of IP-telephony (Asterisk).</span></li>
+                    </ul>
+                </div>
+                <!-- Company 3 -->
+                <div>
+                    <h4 class="main-title-h4">IT Expert <span class="work-text">Vista IT Ltd.</span></h4>
+                    <p class="work-years">May 2005 - January 2014 <span class="work-line">|</span> Ukraine</p>
+                    <ul class="main-list">
+                        <li><span class="main-list-text">Administration, maintenance and configuration of the organization's PC;</span></li>
+                        <li><span class="main-list-text">Implementation of barcode accounting for products;</span></li>
+                        <li><span class="main-list-text">Hardware Development, Analysis, and Testing</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Education -->
+            <div class="education">
+                <h3 class="main-title-h3">Education</h3>
+                <!-- institution 1 -->
+                <h4 class="education-title">National University of Telecommunications</h4>
+                <h4 class="education-speciality">Telecommunication systems and networks</h4>
+                <p class="work-years">September 2009 - June 2013 | Ukraine</p>
+            </div>
+        </div>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- User photo -->
+            <div class="user-photo">
+                <img src="img/photo.jpg" alt="User photo">
+            </div>
+            <!-- Contacts -->
+            <div class="contacts">
+                <h3 class="contacts-title">Contacts</h3>
+                <p><span class="contacts-type">C:</span><a href="tel:+380675500616" class="contacts-link">+38 067 55 00 616</a></p>
+                <p><span class="contacts-type">E:</span><a href="mailto:v.diakov@hotmail.com" class="contacts-link">v.diakov@hotmail.com</a></p>
+            </div>
+            <!-- Tech Skills -->
+            <div class="tech-skills">
+                <h3 class="tech-skills-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-items"><span class="tech-skills-text">Hardware Development and Testing</span></li>
+                    <li class="tech-skills-items"><span class="tech-skills-text">UNIX Systems, bash-sripts</span></li>
+                    <li class="tech-skills-items"><span class="tech-skills-text">Brand Managment</span></li>
+                    <li class="tech-skills-items"><span class="tech-skills-text">Product Disign</span></li>
+                    <li class="tech-skills-items"><span class="tech-skills-text">Vector and raster graphics</span></li>
+                    <li class="tech-skills-items"><span class="tech-skills-text">HTML5, CSS3, JavaScript</span></li>
+                    <li class="tech-skills-items"><span class="tech-skills-text">C#, .NET</span></li>
+                    <li class="tech-skills-items"><span class="tech-skills-text">VBA scripts</span></li>
+                    
+                </ul>
+            </div>
+            <!-- Soft Skills -->
+            <div class="soft-skills">
+                <h3 class="soft-skills-title">Soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li><span class="soft-skills-text">Time managment</span></li>
+                    <li><span class="soft-skills-text">Creativity</span></li>
+                    <li><span class="soft-skills-text">SCRUM, Agile</span></li>
+                    <li><span class="soft-skills-text">Teamwork</span></li>
+                </ul>
+            </div>
+            <!-- Languages -->
+            <div class="soft-skills">
+                <h3 class="soft-skills-title">Languages</h3>
+                <ul class="soft-skills-list">
+                    <li><span class="soft-skills-text">English - Pre-Intermediate</span></li>
+                    <li><span class="soft-skills-text">Ukraine - Native</span></li>
+                    <li><span class="soft-skills-text">Russian - Native</span></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <script src="js/main.js"></script>
+</body>
 </html>
